@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7c6c6; 
+}
+
+header {
+    background-color: #020101; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header:hover {
+    background-color: #8a1538; 
+}
+
+.logo {
+    margin-left: 20px; 
+}
+
+.logo img {
+    max-width: 100px; 
+    height: auto;
+    position: absolute;
+    right:100px;
+    top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD700; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-description {
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-description img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-description:hover {
+    transform: scale(1.05); 
+}
+
+/* Estilos CSS para el aside */
+aside {
+    width: 30%;
+    background-color: #f5f5f5; 
+    padding: 20px;
+    margin: 0 auto; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+}
+
+aside h2 {
+    font-size: 1.5rem; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+ul.news-list {
+    list-style: none; 
+    padding: 0;
+}
+
+ul.news-list li {
+    margin-bottom: 20px; 
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 10px; 
+}
+
+ul.news-list li:last-child {
+    border-bottom: none; 
+}
+
+ul.news-list a {
+    color: #8a1538; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+ul.news-list p {
+    margin-top: 10px; 
+}
+
+
+/* Estilos CSS para la sección de información sobre Qatar 2022 */
+.qatar-info {
+    background-color: #fff; 
+    padding: 40px 20px; 
+    text-align: center;
+}
+
+.qatar-info h2 {
+    font-size: 2rem; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.qatar-info p {
+    font-size: 1.2rem; 
+    color: #777; 
+    margin-bottom: 30px; 
+}
+
+.qatar-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.qatar-links a {
+    text-decoration: none;
+    background-color: #FFD700; 
+    color: #333; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+.qatar-links a:hover {
+    background-color: #FFA500; 
+    color: #fff; 
+}
+
+/* Estilos para el botón del aside */
+.aside-button {
+    background-color: #8a1538;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.aside-button:hover {
+    background-color: #FFD700;
+}
+
+
+footer {
+    background-color: #8a1538; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
